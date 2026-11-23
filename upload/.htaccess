@@ -1,0 +1,7 @@
+# Legacy uploads are retained for historical project reference only.
+# The repaired application stores new reports as encrypted database content.
+Require all denied
+
+<IfModule !mod_authz_core.c>
+    Deny from all
+</IfModule>

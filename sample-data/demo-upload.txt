@@ -1,0 +1,4 @@
+SYNTHETIC MEDICAL REPORT
+Patient: Manual QA Patient
+Purpose: Educational application demonstration only
+Observation: This is fictional data and does not contain medical advice.

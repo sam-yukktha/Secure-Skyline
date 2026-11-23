@@ -1,0 +1,57 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded medical reports and user files
+/upload/*
+!/upload/.htaccess
+!/upload/.gitkeep
+
+# Temporary and log files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Cache files
+.cache/
+tmp/
+temp/
+
+# PHP dependency files (if Composer is used)
+/vendor/
+
+# Test and coverage output
+.phpunit.cache/
+coverage/
+
+# Local database backups
+*.sql.gz
+*.bak.sql
+
+# Root-level medical demo report
+/Fever report.docx
+
+# Root configuration file - if it contains secrets
+/config.php
+
+# Patient data
+/medical_files/
+/upload/*.pdf
+/upload/*.docx
+/upload/*.txt
+
+/database/skyline.sql
+/config/database.php
+/config/app.php
